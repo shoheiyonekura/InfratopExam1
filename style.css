@@ -1,0 +1,59 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+header {
+    background-color: #FF9A4B;
+    height: 50px;
+}
+.content {
+    width: 960px;
+    margin: 50px auto;
+    display: flex;
+}
+.step:nth-child(2) {
+    margin:0 30px;
+}
+
+.step {
+    width: 300px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+.step-title {
+    background-color: #FF9A4B;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.step h3 {
+    margin-top:15px;
+    margin-bottom:5px;
+}
+.step1-visual {
+    height: 150px;
+    background-image: url(img/flow01.png);
+    background-size: cover; 
+    background-position: bottom; 
+}
+.step2-visual {
+    height: 150px;
+    background-image: url(img/flow02.png);
+    background-size: cover; 
+    background-position: bottom; 
+}
+.step3-visual {
+    height: 150px;
+    background-image: url(img/flow03.png);
+    background-size: cover; 
+    background-position: bottom; 
+}
+footer {
+    background-color: #AAAAAA;
+    height: 50px;
+}
